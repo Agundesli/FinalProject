@@ -1482,9 +1482,25 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -5704,6 +5720,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -5712,6 +5733,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4"
     ]
@@ -5722,11 +5744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5743,8 +5765,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Core\\Core.csproj"
+            },
+            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }

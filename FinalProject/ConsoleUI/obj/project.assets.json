@@ -1496,10 +1496,24 @@
           "bin/placeholder/Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
         },
@@ -1513,6 +1527,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -5737,6 +5754,11 @@
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -5761,11 +5783,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5782,14 +5804,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }
