@@ -1,0 +1,14 @@
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\Entities.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\bin\Debug\net5.0\Entities.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProjet_Kodlama\Ders7_Odev1\DataAccess\obj\Debug\net5.0\DataAccess.pdb
