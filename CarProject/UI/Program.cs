@@ -32,7 +32,7 @@ namespace UI
             //MARKA TABOLUSNDAN KRİTER İLE VERİ ALDIM
 
             ColorManager colorManager = new ColorManager(new EFColorDal());
-            foreach (var item in colorManager.GetCarsByColorId(3))
+            foreach (var item in colorManager.GetCarByColorId(3))
             {
                 Console.WriteLine(item.ColorName);
             }
@@ -44,6 +44,8 @@ namespace UI
             //İŞ KURALI-1 UYULAMDI
             carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "C" });
             //İŞ KURALI-2 UYULMADI
+
+
         }
     }
 }
