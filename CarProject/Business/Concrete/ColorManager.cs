@@ -16,13 +16,11 @@ namespace Business.Concrete
         {
             _colorDal = colorDal;
         }
-
         public void Add(Color color)
         {
             _colorDal.Add(color);
             Console.WriteLine("Numaralı Ürün Eklendi");
         }
-
         public void Delete(Color color)
         {
             _colorDal.Delete(color);
@@ -31,9 +29,8 @@ namespace Business.Concrete
 
         public List<Color> GetAll()
         {
-            throw new NotImplementedException();
+            return _colorDal.GetAll();
         }
-
 
         public List<Color> GetCarByColorId(int id)
         {

@@ -8,3 +8,13 @@ C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\CarProject\Core\obj\Deb
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Core\obj\Debug\netcoreapp3.1\Core.pdb

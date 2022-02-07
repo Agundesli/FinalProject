@@ -42,7 +42,7 @@ namespace Business.Concrete
         public void Update(Brand brand)
         {
             _brandDal.Update(brand);
-            Console.WriteLine(brand.BrandId+" Numaralı Ürün Eklendi");
+            Console.WriteLine(brand.BrandId+" Numaralı Ürün Güncellendi");
         }
     }
 }
