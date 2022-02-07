@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\UI\\UI.csproj": {}
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\UI\\UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\Business.csproj": {
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\obj\\",
+        "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\303ABDULLAH_SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\303ABDULLAH_SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -65,17 +65,17 @@
         }
       }
     },
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\303ABDULLAH_SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\303ABDULLAH_SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -129,17 +129,17 @@
         }
       }
     },
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj": {
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\303ABDULLAH_SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\303ABDULLAH_SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -183,17 +183,17 @@
         }
       }
     },
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\UI\\UI.csproj": {
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\UI\\obj\\",
+        "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\303ABDULLAH_SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\303ABDULLAH_SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,14 +207,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Business\\Business.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProjet_Kodlama\\Ders7_Odev1\\Entities\\Entities.csproj"
+              "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Entities\\Entities.csproj"
               }
             }
           }
