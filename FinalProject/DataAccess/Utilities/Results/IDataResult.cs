@@ -8,6 +8,8 @@ namespace DataAccess.Utilities.Results
 {
     public interface IDataResult<T>:IResult
     {
+        //Interfaceler bu şekilde implemente edilir. Bunun sonucunda IDataResult Hem success hem message hemde istenilen
+        //datayı dödürünyor.
         T Data { get; }
     }
 }

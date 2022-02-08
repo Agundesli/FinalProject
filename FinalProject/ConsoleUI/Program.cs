@@ -30,7 +30,7 @@ namespace ConsoleUI
         private static void ProductTest1()
         {
             ProductManager productManager = new ProductManager(new EntityFrameworkProductDal());
-            foreach (var item in productManager.GetByUnitPrice(40, 100))
+            foreach (var item in productManager.GetByUnitPrice(40, 100).Data)
             {
                 Console.WriteLine(item.ProductName);
             }
@@ -38,9 +38,17 @@ namespace ConsoleUI
         private static void ProductTest2()
         {
             ProductManager productManager1 = new ProductManager(new EntityFrameworkProductDal());
-            foreach (var item in productManager1.GetProductDetails())
+            var result = productManager1.GetProductDetails();
+            if (result.Success==true)
             {
-                Console.WriteLine(item.ProductName+"-"+item.CategoryName);
+                foreach (var item in result.Data)
+                {
+                    Console.WriteLine(item.ProductName + "-" + item.CategoryName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
     }
