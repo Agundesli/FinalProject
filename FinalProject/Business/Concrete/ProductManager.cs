@@ -25,8 +25,14 @@ namespace Business.Concrete
 
         public IResult Add(Product product)
         {
+            if (product.ProductName.Length<5)
+            {
+                return new ErrorResult("Ürün max 5 karekter olmalıdır.");
+            }
             _productDal.Add(product);
-            return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir, 2 parametre yolladım.
+            //return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir, 2 parametre yolladım.
+            return new SuccessResult("Ürün Eklendi");//overload ile iki farklı yapıcı blok oluşturdum.
+            //return new SuccessResult();//Mesaj versin ve vermesin şeklinde. Bool (true olayınıda) arka planda farklı bir clas içerisinde tanımladım.
         }
 
         public List<Product> GetAll()

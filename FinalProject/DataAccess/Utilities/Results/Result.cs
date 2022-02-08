@@ -10,7 +10,9 @@ namespace DataAccess.Utilities.Results
     {
 
 
-        public Result(bool success, string message)//Ctor(Yapısal blok) ile iki parametre verebiliyorum metoduma
+        public Result(bool success, string message):this(success)//Bu ctor kullanılırken aşağıdaki ctor dan success i al
+                                                                //constructor'un baseler ile çalışmasına örnek
+            //Ctor(Yapısal blok) ile iki parametre verebiliyorum metoduma
         {
             Message = message;
             //Aşağıdaki mesajı mesaj olarak set et!!!
@@ -18,7 +20,9 @@ namespace DataAccess.Utilities.Results
             //Madem böyle niye başta set koymadık da böyle bir ctor kullanma gereği duyduk
             //Kullanııc kafasına göre return döndüremesin. Yani biz kullanıcıya sınırlama getirdik.
             //Benim belirlediğim ifadeyi set edebilirsin.
-            Success = success;
+            //Success = success;
+            //Bu ifade hem burade hemde aşağıdaki Ctor ieçrisinde çalışıyor. Kenidimi tekrar ediyorum. Kurala aykırı, 
+            //Bu parametreyi aşağıdan ödünç alsın çalışacağı zaman
         }
         public Result(bool success)//Ctor(Yapısal blok) sadece bool da döndürmek isteyebilirdim.Overloading yapıyorum
         {
