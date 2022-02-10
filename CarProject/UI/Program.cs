@@ -31,12 +31,25 @@ namespace UI
             GetColor();
 
             CarManager carManager = new CarManager(new EFCarDal());
-            carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
-            //ARABA TABLOSUNA VERİ EKLEDİM
-            carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 55500, Description = "C" });
-            //İŞ KURALI-1 UYULAMDI
-            carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "C" });
-            //İŞ KURALI-2 UYULMADI
+            var r = carManager.GetCarDetails();
+            if (r.Success==true)
+            {
+                foreach (var item in r.Data)
+                {
+                    Console.WriteLine(item.Description+"-"+item.ColorName+ "-"+item.BrandName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(r.Message);
+            }
+
+            //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
+            ////ARABA TABLOSUNA VERİ EKLEDİM
+            //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 55500, Description = "C" });
+            ////İŞ KURALI-1 UYULAMDI
+            //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "C" });
+            ////İŞ KURALI-2 UYULMADI
             
 
         }
@@ -72,7 +85,7 @@ namespace UI
         private static void MultiJoin()
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            foreach (var item in carManager.GetCarDetails())
+            foreach (var item in carManager.GetCarDetails().Data)
             {
                 Console.WriteLine(item.CarId + " - " + item.Description + " - " + item.BrandName + " - " + item.ColorName);
             }
@@ -112,7 +125,7 @@ namespace UI
         private static void GetCar()
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            foreach (var item in carManager.GetAll())
+            foreach (var item in carManager.GetAll().Data)
             {
                 Console.WriteLine(item.CarId + "-" + item.Description);
             }
