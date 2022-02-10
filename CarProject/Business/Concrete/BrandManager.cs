@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -17,32 +18,36 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
             _brandDal.Delete(brand);
-            Console.WriteLine(" Numaralı Ürün Eklendi");
+            return new SuccessResult(Message.AddedSuccesful);
         }
 
-        public void Delete(Brand brand)
+        public IResult Delete(Brand brand)
         {
             _brandDal.Delete(brand);
-            Console.WriteLine(brand.BrandId+" Numaralı Ürün Silindi");
+            return new SuccessResult(Message.DeletedProduct);
         }
 
-        public List<Brand> GetAll()
+        public IDataResult<List<Brand>> GetAll()
         {
-            return _brandDal.GetAll();
+            return new SuccessDataResult<List<Brand>>( _brandDal.GetAll(),Message.AddedSuccesful);
         }
 
-        public List<Brand> GetCarsByBrandId(int id)
+        public IDataResult< List<Brand>> GetCarsByBrandId(int id)
         {
-            return _brandDal.GetAll(p => p.BrandId == id);
+            return new SuccessDataResult<List<Brand>>( _brandDal.GetAll(p => p.BrandId == id),Message.AddedSuccesful);
         }
 
-        public void Update(Brand brand)
+        public IResult Update(Brand brand)
         {
+            if (DateTime.Now.Hour == 13)
+            {
+                return new ErrorResult(Message.Maintenancetime);
+            }
             _brandDal.Update(brand);
-            Console.WriteLine(brand.BrandId+" Numaralı Ürün Güncellendi");
+            return new SuccessResult(Message.UpdatedProduct);
         }
     }
 }

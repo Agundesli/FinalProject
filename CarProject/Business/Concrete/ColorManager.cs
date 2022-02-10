@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -16,30 +17,36 @@ namespace Business.Concrete
         {
             _colorDal = colorDal;
         }
-        public void Add(Color color)
+        public IResult Add(Color color)
         {
             _colorDal.Add(color);
-            Console.WriteLine("Numaralı Ürün Eklendi");
+            return new SuccessResult(Message.AddedSuccesful);
         }
-        public void Delete(Color color)
+        public IResult Delete(Color color)
         {
             _colorDal.Delete(color);
-            Console.WriteLine(color.ColorId + " Numaralı Ürün Silindi");
+            return new SuccessResult(Message.DeletedProduct);
         }
 
-        public List<Color> GetAll()
+        public IDataResult<List<Color>> GetAll()
         {
-            return _colorDal.GetAll();
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(), Message.AddedSuccesful);
         }
 
-        public List<Color> GetCarByColorId(int id)
+        public IDataResult< List<Color>> GetCarByColorId(int id)
         {
-            return _colorDal.GetAll(p => p.ColorId == id);
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(p => p.ColorId == id),Message.AddedSuccesful);
         }
-        public void Update(Color color)
+        public IResult Update(Color color)
         {
+            if (DateTime.Now.Hour == 13)
+            {
+                return new ErrorResult(Message.Maintenancetime);
+            }
             _colorDal.Update(color);
-            Console.WriteLine(color.ColorId + " Numaralı Ürün Güncellendi");
+            return new SuccessResult(Message.UpdatedProduct);
         }
+
+       
     }
 }

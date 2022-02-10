@@ -69,7 +69,7 @@ namespace UI
         private static void GetColor()
         {
             ColorManager colorManager1 = new ColorManager(new EFColorDal());
-            foreach (var item in colorManager1.GetAll())
+            foreach (var item in colorManager1.GetAll().Data)
             {
                 Console.WriteLine(item.ColorName);
             }
@@ -95,7 +95,7 @@ namespace UI
         private static void GetColorKriter()
         {
             ColorManager colorManager = new ColorManager(new EFColorDal());
-            foreach (var item in colorManager.GetCarByColorId(3))
+            foreach (var item in colorManager.GetCarByColorId(3).Data)
             {
                 Console.WriteLine(item.ColorName);
             }
@@ -105,7 +105,7 @@ namespace UI
         private static void GetBrandKriter()
         {
             BrandManager brandManager = new BrandManager(new EFBrandDal());
-            foreach (var item in brandManager.GetCarsByBrandId(2))
+            foreach (var item in brandManager.GetCarsByBrandId(2).Data)
             {
                 Console.WriteLine(item.BrandName);
             }
@@ -115,7 +115,7 @@ namespace UI
         private static void GetBrand()
         {
             BrandManager brandManager = new BrandManager(new EFBrandDal());
-            foreach (var item in brandManager.GetAll())
+            foreach (var item in brandManager.GetAll().Data)
             {
                 Console.WriteLine(item.BrandName);
             }
