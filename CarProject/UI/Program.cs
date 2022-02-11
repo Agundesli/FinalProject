@@ -30,19 +30,7 @@ namespace UI
 
             GetColor();
 
-            CarManager carManager = new CarManager(new EFCarDal());
-            var r = carManager.GetCarDetails();
-            if (r.Success==true)
-            {
-                foreach (var item in r.Data)
-                {
-                    Console.WriteLine(item.Description+"-"+item.ColorName+ "-"+item.BrandName);
-                }
-            }
-            else
-            {
-                Console.WriteLine(r.Message);
-            }
+            ResulReturn();
 
             //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
             ////ARABA TABLOSUNA VERİ EKLEDİM
@@ -50,8 +38,25 @@ namespace UI
             ////İŞ KURALI-1 UYULAMDI
             //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "C" });
             ////İŞ KURALI-2 UYULMADI
-            
 
+
+        }
+
+        private static void ResulReturn()
+        {
+            CarManager carManager = new CarManager(new EFCarDal());
+            var r = carManager.GetCarDetails();
+            if (r.Success == true)
+            {
+                foreach (var item in r.Data)
+                {
+                    Console.WriteLine(item.Description + "-" + item.ColorName + "-" + item.BrandName);
+                }
+            }
+            else
+            {
+                Console.WriteLine(r.Message);
+            }
         }
 
         private static void BrandUpdate()
