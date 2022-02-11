@@ -12,37 +12,42 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            GetCar();
+            //GetCar();
 
-            GetBrand();
+            //GetBrand();
 
-            GetBrandKriter();
+            //GetBrandKriter();
 
-            GetColorKriter();
+            //GetColorKriter();
 
-            MultiJoin();
+            //MultiJoin();
 
-            Delete();
+            //Delete();
 
-            UpdateColor();
+            //UpdateColor();
 
-            BrandUpdate();
+            //BrandUpdate();
 
-            GetColor();
+            //GetColor();
 
-            ResulReturn();
+            ResultReturn();
+            //Console.WriteLine(DateTime.Now.Hour);
 
+            //CarManager carManager = new CarManager(new EFCarDal());
+            
             //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
-            ////ARABA TABLOSUNA VERİ EKLEDİM
-            //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 55500, Description = "C" });
-            ////İŞ KURALI-1 UYULAMDI
-            //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "C" });
-            ////İŞ KURALI-2 UYULMADI
+            //ARABA TABLOSUNA VERİ EKLEDİM
+           
+            //carManager.Add((new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 55500, Description = "C" }));
+            //İŞ KURALI-1 UYULAMDI
+            
+            //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "Cfdfsfsef" });
+            //İŞ KURALI-2 UYULMADI
 
 
         }
 
-        private static void ResulReturn()
+        private static void ResultReturn()
         {
             CarManager carManager = new CarManager(new EFCarDal());
             var r = carManager.GetCarDetails();
