@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj": {}
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj": {
+    "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\303ABDULLAH_SABAH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\303ABDULLAH_SABAH\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A_GUNDESLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\303ABDULLAH_SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
