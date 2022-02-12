@@ -16,33 +16,36 @@ namespace Business.Concrete
 
         public RentalManager(IRentalDal rentalDal)
         {
+
             _rentalDal = rentalDal;
         }
 
         public IResult Add(Rental rental)
         {
             _rentalDal.Add(rental);
-            return new SuccessResult(Message.AddedSuccesful);
+            return new SuccessResult("ekleme başarılı");
         }
-
         public IResult Delete(Rental rental)
         {
-            throw new NotImplementedException();
+
+                _rentalDal.Delete(rental);
+            return new SuccessResult();
         }
 
         public IDataResult<List<Rental>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll());
         }
 
         public IDataResult<List<Rental>> GetRentalsByRentalId(int id)
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(p => p.RentalId == id));
         }
 
         public IResult Update(Rental rental)
         {
-            throw new NotImplementedException();
+            _rentalDal.Update(rental);
+            return new SuccessResult();
         }
     }
 }

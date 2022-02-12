@@ -32,6 +32,13 @@ namespace UI
 
             //ResultReturn();
 
+            //UserAdded();
+
+            //CustomerAdded();
+
+            //RentalAdded();
+
+            //UserUpdate();
 
             //CarManager carManager = new CarManager(new EFCarDal());
 
@@ -44,20 +51,87 @@ namespace UI
             //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "Cfdfsfsef" });
             //İŞ KURALI-2 UYULMADI
 
-            //UserManager userManager = new UserManager(new EFUserDal());
+
+            RentalManager rentalManager = new RentalManager(new EFRentalDal());
+            rentalManager.Add(new Rental
+            {
+                CarId = 3,
+                CustomerId = 1,
+                RentDate = new DateTime(2022, 03, 12),
+            });
+
+
+        }
+
+        private static void UserUpdate()
+        {
+            UserManager userManager1 = new UserManager(new EFUserDal());
+            userManager1.Update(new User { UserId = 1, Password = "black" });
+            userManager1.Update(new User { UserId = 2, Password = "White" });
+            userManager1.Update(new User { UserId = 3, Password = "yellow" });
+            userManager1.Update(new User { UserId = 4, Password = "orange" });
+            userManager1.Update(new User { UserId = 5, Password = "pink" });
+        }
+
+        private static void RentalAdded()
+        {
+            RentalManager rentalManager = new RentalManager(new EFRentalDal());
+            rentalManager.Add(new Rental
+            {
+                CarId = 4,
+                CustomerId = 4,
+                RentDate = new DateTime(2022, 2, 6),
+                ReturnDate = new DateTime(2022, 2, 12)
+            });
+            rentalManager.Add(new Rental
+            {
+                CarId = 2,
+                CustomerId = 3,
+                RentDate = new DateTime(2022, 2, 6),
+                ReturnDate = new DateTime(2022, 2, 12)
+            });
+        }
+
+        private static void CustomerAdded()
+        {
+            CustomerManager customerManager = new CustomerManager(new EFCustomerDal());
+            customerManager.Add(new Customer { UserId = 1, CompanyName = "Deneme" });
+            customerManager.Add(new Customer { UserId = 1, CompanyName = "Test" });
+            customerManager.Add(new Customer { UserId = 2, CompanyName = "Yazılım" });
+            customerManager.Add(new Customer { UserId = 3, CompanyName = "Bilişim" });
+            customerManager.Add(new Customer { UserId = 4, CompanyName = "Grafik" });
+            customerManager.Add(new Customer { UserId = 4, CompanyName = "Tasarım" });
+        }
+
+        private static void UserAdded()
+        {
+            UserManager userManager = new UserManager(new EFUserDal());
+            userManager.Add(new User
+            {
+                FirstName = "Büşra",
+                LastName = "Yılmaz",
+                Email = "bsrylmz06@gmail.com",
+                Password = "Gray"
+            }
+            );
             //userManager.Add(new User
             //{
-            //    FirstName = "Usame",
+            //    FirstName = "Yusuf",
             //    LastName = "Gündeşli",
-            //    Email = "abdullahusame@hotmail.com",
-            //    Password = 123456
+            //    Email = "yusuf@hotmail.com",
+            //    //Password = 200000
             //});
-            //RentalManager rentalManager = new RentalManager(new EFRentalDal());
-            //rentalManager.Add(new Rental {CarId = 1, CustomerId=1, 
-            //    RentDate=new DateTime(2022,2,6), ReturnDate=new DateTime(2022,2,12)});
 
-            CustomerManager customerManager = new CustomerManager(new EFCustomerDal());
-            customerManager.Add(new Customer { UsersId = 1, CompanyName = "Deneme" });
+            //{
+
+            //}
+            //userManager.Add(new User
+            //{
+            //    FirstName = "Kürşat",
+            //    LastName = "Gündeşli",
+            //    Email = "kürşat@hotmail.com",
+            //    //Password = 300000
+            //});
         }
 
         private static void ResultReturn()

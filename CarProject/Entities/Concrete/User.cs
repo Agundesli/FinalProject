@@ -9,10 +9,10 @@ namespace Entities.Concrete
 {
     public class User:IEntity
     {
-        public int UsersId { get; set; }
+        public int UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public long Password { get; set; }
+        public string Password { get; set; }
     }
 }

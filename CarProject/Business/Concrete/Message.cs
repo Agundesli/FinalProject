@@ -10,9 +10,10 @@ namespace Business.Concrete
     {
         public static string InvalidProductName = "Ürün ismi Geçersiz";
         public static string NoPriceEntried = "Fiyat girilmedi";
-        public static string AddedSuccesful = "Ürün Eklendi";
+        public static string AddedSuccesful = "Eklendi";
         public static string Maintenancetime = "Bakım Zamanı";
         public static string DeletedProduct = "Ürün Silindi";
         public static string UpdatedProduct = "Ürün Güncellendi";
+        public static string NotReturn = "Teslim Alınmadı";
     }
 }
