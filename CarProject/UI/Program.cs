@@ -40,6 +40,8 @@ namespace UI
 
             //UserUpdate();
 
+            //Rental();
+
             //CarManager carManager = new CarManager(new EFCarDal());
 
             //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
@@ -52,6 +54,11 @@ namespace UI
             //İŞ KURALI-2 UYULMADI
 
 
+            Rental();
+        }
+
+        private static void Rental()
+        {
             RentalManager rentalManager = new RentalManager(new EFRentalDal());
             var r = rentalManager.Add(new Rental
             {
