@@ -12,7 +12,7 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            GetCar();
+            //GetCar();
 
             //GetBrand();
 
@@ -31,20 +31,33 @@ namespace UI
             //GetColor();
 
             //ResultReturn();
-            Console.WriteLine(DateTime.Now.Hour);
+
 
             //CarManager carManager = new CarManager(new EFCarDal());
-            
+
             //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
             //ARABA TABLOSUNA VERİ EKLEDİM
-           
+
             //carManager.Add((new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 55500, Description = "C" }));
             //İŞ KURALI-1 UYULAMDI
-            
+
             //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "Cfdfsfsef" });
             //İŞ KURALI-2 UYULMADI
 
+            //UserManager userManager = new UserManager(new EFUserDal());
+            //userManager.Add(new User
+            //{
+            //    FirstName = "Usame",
+            //    LastName = "Gündeşli",
+            //    Email = "abdullahusame@hotmail.com",
+            //    Password = 123456
+            //});
+            //RentalManager rentalManager = new RentalManager(new EFRentalDal());
+            //rentalManager.Add(new Rental {CarId = 1, CustomerId=1, 
+            //    RentDate=new DateTime(2022,2,6), ReturnDate=new DateTime(2022,2,12)});
 
+            CustomerManager customerManager = new CustomerManager(new EFCustomerDal());
+            customerManager.Add(new Customer { UsersId = 1, CompanyName = "Deneme" });
         }
 
         private static void ResultReturn()
@@ -88,7 +101,7 @@ namespace UI
         private static void Delete()
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            carManager.Delete(new Car { CarId = 1002 });
+            carManager.Delete(new Car { CarId = 2002 });
             //Database üzerinden veri silme
         }
 
