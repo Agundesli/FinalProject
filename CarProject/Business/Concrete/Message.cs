@@ -15,5 +15,6 @@ namespace Business.Concrete
         public static string DeletedProduct = "Ürün Silindi";
         public static string UpdatedProduct = "Ürün Güncellendi";
         public static string NotReturn = "Teslim Alınmadı";
+        public static string FailAdded = "Ekleme Başarısız";
     }
 }

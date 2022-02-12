@@ -53,14 +53,12 @@ namespace UI
 
 
             RentalManager rentalManager = new RentalManager(new EFRentalDal());
-            rentalManager.Add(new Rental
+            var r = rentalManager.Add(new Rental
             {
-                CarId = 3,
+                CarId = 4,
                 CustomerId = 1,
-                RentDate = new DateTime(2022, 03, 12),
+                RentDate = new DateTime(2022, 06, 15)
             });
-
-
         }
 
         private static void UserUpdate()
