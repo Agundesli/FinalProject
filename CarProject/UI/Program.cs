@@ -12,7 +12,7 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            //GetCar();
+            GetCar();
 
             //GetBrand();
 
@@ -30,8 +30,8 @@ namespace UI
 
             //GetColor();
 
-            ResultReturn();
-            //Console.WriteLine(DateTime.Now.Hour);
+            //ResultReturn();
+            Console.WriteLine(DateTime.Now.Hour);
 
             //CarManager carManager = new CarManager(new EFCarDal());
             

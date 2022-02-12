@@ -208,3 +208,4 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Entities.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Core.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\obj\Debug\net5.0\UI.genruntimeconfig.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\obj\Debug\net5.0\UI.csproj.CopyComplete
