@@ -42,6 +42,8 @@ namespace UI
 
             //Rental();
 
+            //RentalUpdate();
+
             //CarManager carManager = new CarManager(new EFCarDal());
 
             //carManager.Add(new Car { BrandId = 2, ColorId = 4, ModelYear = 1996, DailyPrice = 102500, Description = "Classic" });
@@ -52,9 +54,13 @@ namespace UI
 
             //carManager.Add(new Car { BrandId = 5, ColorId = 1, ModelYear = 2006, DailyPrice = 0, Description = "Cfdfsfsef" });
             //İŞ KURALI-2 UYULMADI
+        }
 
-
-            Rental();
+        private static void RentalUpdate()
+        {
+            RentalManager rentalManager = new RentalManager(new EFRentalDal());
+            rentalManager.Update(new Rental { RentalId = 3028, CarId = 1, CustomerId = 1, ReturnDate = new DateTime(2022, 02, 13) });
+            rentalManager.Update(new Rental { RentalId = 4022, CarId = 2, CustomerId = 1, ReturnDate = new DateTime(2022, 02, 14) });
         }
 
         private static void Rental()
@@ -62,20 +68,20 @@ namespace UI
             RentalManager rentalManager = new RentalManager(new EFRentalDal());
             var r = rentalManager.Add(new Rental
             {
-                CarId = 4,
+                CarId = 2,
                 CustomerId = 1,
-                RentDate = new DateTime(2022, 06, 15)
+                RentDate = new DateTime(2022,02,15),
             });
         }
 
         private static void UserUpdate()
         {
             UserManager userManager1 = new UserManager(new EFUserDal());
-            userManager1.Update(new User { UserId = 1, Password = "black" });
-            userManager1.Update(new User { UserId = 2, Password = "White" });
-            userManager1.Update(new User { UserId = 3, Password = "yellow" });
-            userManager1.Update(new User { UserId = 4, Password = "orange" });
-            userManager1.Update(new User { UserId = 5, Password = "pink" });
+            userManager1.Update(new User { UserId = 1,FirstName="Mehmet", LastName="Mehmet", Email= "fbehf@fhefbh", Password = "black" });
+            userManager1.Update(new User { UserId = 2, FirstName = "Ayşe", LastName = "Ayşe", Email = "fbehf@fhefbh", Password = "White" });
+            userManager1.Update(new User { UserId = 3, FirstName = "Kamil", LastName = "Kamil", Email = "fbehf@fhefbh", Password = "yellow" });
+            userManager1.Update(new User { UserId = 4, FirstName = "Yeliz", LastName = "Yeliz", Email = "fbehf@fhefbh", Password = "orange" });
+            userManager1.Update(new User { UserId = 5, FirstName = "Fırat", LastName = "Fırat", Email = "fbehf@fhefbh", Password = "pink" });
         }
 
         private static void RentalAdded()
@@ -119,24 +125,24 @@ namespace UI
                 Password = "Gray"
             }
             );
-            //userManager.Add(new User
-            //{
-            //    FirstName = "Yusuf",
-            //    LastName = "Gündeşli",
-            //    Email = "yusuf@hotmail.com",
-            //    //Password = 200000
-            //});
+            userManager.Add(new User
+            {
+                FirstName = "Yusuf",
+                LastName = "Gündeşli",
+                Email = "yusuf@hotmail.com",
+                //Password = 200000
+            });
 
-            //{
+            {
 
-            //}
-            //userManager.Add(new User
-            //{
-            //    FirstName = "Kürşat",
-            //    LastName = "Gündeşli",
-            //    Email = "kürşat@hotmail.com",
-            //    //Password = 300000
-            //});
+            }
+            userManager.Add(new User
+            {
+                FirstName = "Kürşat",
+                LastName = "Gündeşli",
+                Email = "kürşat@hotmail.com",
+                //Password = 300000
+            });
         }
 
         private static void ResultReturn()

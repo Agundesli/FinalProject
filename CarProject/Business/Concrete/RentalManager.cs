@@ -16,45 +16,33 @@ namespace Business.Concrete
 
         public RentalManager(IRentalDal rentalDal)
         {
-
             _rentalDal = rentalDal;
         }
 
         public IResult Add(Rental rental)
         {
-            var c = _rentalDal.GetAll(p => p.CarId == rental.CarId);
-            if (c!=null)
+            var carcontrol = _rentalDal.GetAll(p => p.CarId == rental.CarId && p.ReturnDate==null);
+            if (carcontrol.Count>0)
             {
-                if (rental.ReturnDate==DateTime.Now)
-                {
+                    Console.WriteLine("Ekleme başarısız");
                     return new ErrorResult(Message.FailAdded);
-                }
-                else
-                {
-                    _rentalDal.Add(rental);
-                    return new SuccessResult("ekleme başarılı");
-                }
             }
             _rentalDal.Add(rental);
             return new SuccessResult("ekleme başarılı");
         }
         public IResult Delete(Rental rental)
         {
-
-                _rentalDal.Delete(rental);
+            _rentalDal.Delete(rental);
             return new SuccessResult();
         }
-
         public IDataResult<List<Rental>> GetAll()
         {
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll());
         }
-
         public IDataResult<List<Rental>> GetRentalsByRentalId(int id)
         {
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(p => p.RentalId == id));
         }
-
         public IResult Update(Rental rental)
         {
             _rentalDal.Update(rental);
