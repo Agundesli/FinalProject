@@ -137,3 +137,4 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Deb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.genruntimeconfig.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CopyComplete

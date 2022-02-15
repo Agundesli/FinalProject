@@ -30,7 +30,6 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debu
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\ref\Business.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Business\obj\Debug\net5.0\Business.pdb
