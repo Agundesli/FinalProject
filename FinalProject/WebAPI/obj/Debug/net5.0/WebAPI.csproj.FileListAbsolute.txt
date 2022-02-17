@@ -64,4 +64,3 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\Core.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\Entities.pdb
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete

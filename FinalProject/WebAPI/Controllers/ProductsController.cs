@@ -17,25 +17,48 @@ namespace WebAPI.Controllers
     [ApiController]//Attribute
     public class ProductsController : ControllerBase
     {
-        IProductService productService;
-
+        //Loosely coupled
+        IProductService _productService;
+        //ctor ile dependen injection
         public ProductsController(IProductService productService)//controllera sen bir Iproductservis bağımlısısın
         {
-            this.productService = productService;
+            _productService = productService;//=new ProductManager();
         }
 
-        [HttpGet]
+        [HttpGet("getall")]
         
-        public List<Product> Get()
+        public IActionResult GetAll()
         {
-            //return new List<Product>
-            //{
-            //    new Product{ProductID=1, ProductName="Elma"},
-            //    new Product{ProductID=2, ProductName="Armut"},
-            //};
-            var result = productService.GetAll();
-           
-            return result.Data;
+           //Dependency chain --
+            var result = _productService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpPost("add")]
+        public IActionResult Post(Product product)
+        {
+            var result = _productService.Add(product);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int id)
+        {
+            var result = _productService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
         }
     }
 }
