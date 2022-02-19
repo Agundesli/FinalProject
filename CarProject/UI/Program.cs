@@ -12,7 +12,7 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            //GetCar();
+            GetCar();
 
             //GetBrand();
 
