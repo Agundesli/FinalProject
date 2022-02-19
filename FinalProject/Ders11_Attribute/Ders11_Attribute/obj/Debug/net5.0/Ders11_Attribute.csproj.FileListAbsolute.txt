@@ -1,0 +1,16 @@
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.exe
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.deps.json
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.runtimeconfig.json
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.runtimeconfig.dev.json
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\ref\Ders11_Attribute.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\bin\Debug\net5.0\Ders11_Attribute.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.csproj.AssemblyReference.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.AssemblyInfoInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.AssemblyInfo.cs
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.csproj.CoreCompileInputs.cache
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\ref\Ders11_Attribute.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.pdb
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Ders11_Attribute\Ders11_Attribute\obj\Debug\net5.0\Ders11_Attribute.genruntimeconfig.cache
