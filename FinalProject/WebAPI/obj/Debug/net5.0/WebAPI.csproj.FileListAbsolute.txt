@@ -69,3 +69,4 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll

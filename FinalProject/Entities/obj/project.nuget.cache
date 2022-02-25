@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "A4xPYjRQoIhMHvH8Y8+Tfws3HfHSI/HZ8wAcgxa4Uhw7gTKYmdmNjy2yDnSVCbtnu2nAaIqf5ATBZrComfLLCA==",
+  "dgSpecHash": "kh004UqkmpF7x+rz/MZ9EOajBiiXroSCu69Q3P5t31est9wLbb3C1cSYTvW1yBd/83fTSYJVxnYfTE84moWlvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\FinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
