@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Core.Utilities.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Utilities.Results
+namespace Core.Utilities.Results
 {
     public class Result : IResult
     {

@@ -1,9 +1,10 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
-using DataAccess.Utilities.Results;
 using Entities.Concrete;
 using Entities.DTOs;
 using FluentValidation;
@@ -26,10 +27,10 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            ValidationTool.Validate(new ProductValidator(), product);
+
             _productDal.Add(product);
             //return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir, 2 parametre yolladım.
             return new SuccessResult(Messages.ProductAdded);//overload ile iki farklı yapıcı blok oluşturdum.
