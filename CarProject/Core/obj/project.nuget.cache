@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0tmtYbLQ3xCG5k2PB9ynzUOeUnhZZfmJuOeURSfi0xs8YcHCF4j5R8UtCXtKHQ/fyjWpr+VWiVinAfbpubMrlA==",
+  "dgSpecHash": "REEGbAVRl/doWtnCFyWHxh10lNlZn/4ZKVOlYkg8/ohrFX5PW6O9Fmdwq8ljZPlDz4mGEwnF5Mdorj8A957I5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

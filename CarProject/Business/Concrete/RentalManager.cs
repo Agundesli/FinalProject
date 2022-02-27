@@ -1,7 +1,10 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +24,7 @@ namespace Business.Concrete
 
         public IResult Add(Rental rental)
         {
+            ValidationTool.Validate(new RentalValidator(),rental);
             var carcontrol = _rentalDal.GetAll(p => p.CarId == rental.CarId && p.ReturnDate==null);
             if (carcontrol.Count>0)
             {
