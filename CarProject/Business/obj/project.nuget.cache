@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IbB3GC5gQ2q/H1/QkALqdZcfp+hSdbb2aXXYFV3kqONgKYJjDEQPA2Knhfyb4+l6oO+H1iIN1fzM8ZHknQlg6w==",
+  "dgSpecHash": "Fo67M3sB1e3v3+lSGCS/o77y4Qab8wXQ4oisVjidmGIStvsUypXskYfxShJ9HorXIEBVogkK4WXNI0KCyZsxdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\A_GUNDESLI\\Documents\\GitHub\\FinalProject\\CarProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\A_GUNDESLI\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
