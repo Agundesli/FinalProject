@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Utilities.Results
+﻿namespace Core.Utilities.Results
 {
     public class Result : IResult
     {

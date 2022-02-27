@@ -1,10 +1,8 @@
-﻿
-using DataAccess.Utilities.Results;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Utilities.Results
+namespace Core.Utilities.Results
 {
     public class SuccessResult:Result
     {

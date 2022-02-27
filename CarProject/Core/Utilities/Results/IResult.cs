@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Utilities.Results
+namespace Core.Utilities.Results
 {
     public interface IResult
     {

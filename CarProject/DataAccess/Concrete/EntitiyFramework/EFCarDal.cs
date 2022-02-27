@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Concrete
+namespace DataAccess.Concrete.EntitiyFramework
 {
     public class EFCarDal : EfEntityRepositoryBase<Car, CarContext>, ICarDal
     {
