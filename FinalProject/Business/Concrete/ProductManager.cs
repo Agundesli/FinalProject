@@ -23,17 +23,26 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
+
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
+
         }
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
+            if (CheckIfProductCountofCategoryCorrect(product.CategoryID).Success)
+            {
+                _productDal.Add(product);
+                return new SuccessResult(Messages.ProductAdded);
+            }
+            return new ErrorResult(Messages.ProductCountofCategoryError);
 
-            _productDal.Add(product);
-            //return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir, 2 parametre yolladım.
-            return new SuccessResult(Messages.ProductAdded);//overload ile iki farklı yapıcı blok oluşturdum.
+            //return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir,
+            //2 parametre yolladım.
+            //overload ile iki farklı yapıcı blok oluşturdum.
+            
             //return new SuccessResult();//Mesaj versin ve vermesin şeklinde. Bool (true olayınıda) arka planda farklı bir clas içerisinde tanımladım.
         }
 
@@ -70,6 +79,15 @@ namespace Business.Concrete
                 return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
             }
             return new SuccesDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
+        }
+        private IResult CheckIfProductCountofCategoryCorrect(int categoryid)
+        {
+            var result = _productDal.GetAll(p => p.CategoryID == categoryid).Count();
+            if (result>10)
+            {
+                return new ErrorResult(Messages.ProductCountofCategoryError);
+            }
+            return new SuccessResult();
         }
     }
 }
