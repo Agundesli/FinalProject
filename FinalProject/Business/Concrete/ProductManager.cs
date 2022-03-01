@@ -34,8 +34,11 @@ namespace Business.Concrete
         {
             if (CheckIfProductCountofCategoryCorrect(product.CategoryID).Success)
             {
-                _productDal.Add(product);
-                return new SuccessResult(Messages.ProductAdded);
+                if (SameProductName(product.ProductName).Success)
+                {
+                    _productDal.Add(product);
+                    return new SuccessResult(Messages.ProductAdded);
+                }
             }
             return new ErrorResult(Messages.ProductCountofCategoryError);
 
@@ -86,6 +89,15 @@ namespace Business.Concrete
             if (result>10)
             {
                 return new ErrorResult(Messages.ProductCountofCategoryError);
+            }
+            return new SuccessResult();
+        }
+        private IResult SameProductName(string productName)
+        {
+            var r = _productDal.GetAll(p => p.ProductName == productName).Any();
+            if (r)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExist);
             }
             return new SuccessResult();
         }
