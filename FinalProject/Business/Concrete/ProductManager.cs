@@ -3,6 +3,7 @@ using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Bussiness;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -23,25 +24,24 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
+        ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
-
+            _categoryService = categoryService;
         }
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
-        {
-            if (CheckIfProductCountofCategoryCorrect(product.CategoryID).Success)
+        {   
+            IResult result= BussinessRules.Run(CheckIfProductCountofCategoryCorrect(product.CategoryID),
+                SameProductName(product.ProductName),CategoryCount());
+            if (result!=null)
             {
-                if (SameProductName(product.ProductName).Success)
-                {
-                    _productDal.Add(product);
-                    return new SuccessResult(Messages.ProductAdded);
-                }
+                return result;
             }
-            return new ErrorResult(Messages.ProductCountofCategoryError);
-
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductAdded);
             //return new Result(true,"Ürün Eklendi");//Bunu yapabilmem için yöntem bir tane Constructor eklemektir,
             //2 parametre yolladım.
             //overload ile iki farklı yapıcı blok oluşturdum.
@@ -98,6 +98,15 @@ namespace Business.Concrete
             if (r)
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExist);
+            }
+            return new SuccessResult();
+        }
+        private IResult CategoryCount()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Data.Count>15)
+            {
+                return new ErrorResult(Messages.CategoriesPassedLimit);
             }
             return new SuccessResult();
         }
