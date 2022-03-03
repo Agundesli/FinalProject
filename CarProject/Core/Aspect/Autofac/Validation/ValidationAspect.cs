@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-//şİMDİ NE YAPTIĞIMI SÖYLEYEYİMDE 
+
 namespace Core.Aspect.Autofac.Validation
 {
     public class ValidationAspect : MethodInterception
