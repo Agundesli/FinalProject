@@ -8,6 +8,8 @@
     <PackageReference Include="Autofac" Version="6.3.0" />
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
     <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="Microsoft.AspNet.WebHelpers" Version="3.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.14" />
   </ItemGroup>
 
   <ItemGroup>

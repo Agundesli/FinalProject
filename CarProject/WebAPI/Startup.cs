@@ -1,10 +1,7 @@
-using Business.Abstract;
-using Business.Concrete;
-using DataAccess.Abstract;
-using DataAccess.Concrete;
-using DataAccess.Concrete.EntitiyFramework;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -31,20 +28,19 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddControllers();
+             services.AddControllers();
             //services.AddSingleton<ICarService, CarManager>();
             //services.AddSingleton<ICarDal, EFCarDal>();
 
             //services.AddSingleton<IBrandService, BrandManager>();
             //services.AddSingleton<IBrandDal, EFBrandDal>();
-            
+
             //services.AddSingleton<IColorService, ColorManager>();
             //services.AddSingleton<IColorDal, EFColorDal>();
-            
+
             //services.AddSingleton<ICustomerService, CustomerManager>();
             //services.AddSingleton<ICustomerDal, EFCustomerDal>();
-            
+
             //services.AddSingleton<IRentalService, RentalManager>();
             //services.AddSingleton<IRentalDal, EFRentalDal>();
 
@@ -53,7 +49,7 @@ namespace WebAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication2", Version = "v1" });
             });
         }
 
@@ -64,8 +60,12 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApplication2 v1"));
             }
+            //else
+            //{
+            //    app.UseHsts();
+            //}
 
             app.UseHttpsRedirection();
 
@@ -73,10 +73,15 @@ namespace WebAPI
 
             app.UseAuthorization();
 
+            //app.UseStaticFiles(); 
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+            //app.Run(async(context)=> {
+            //    await context.Response.WriteAsync("Could Not Find Anything");
+            //        });
         }
     }
 }

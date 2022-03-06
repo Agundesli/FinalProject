@@ -8,6 +8,9 @@ namespace Business.Concrete
 {
     public class Message
     {
+        public static string ImageNotFound = "Resim Bulunamadı";
+        public static string DeletedImage = "Resim Silindi";
+        public static string CarImageLimitPassed = "Fazla Resim Yüklendi";
         public static string InvalidProductName = "Ürün ismi Geçersiz";
         public static string NoPriceEntried = "Fiyat girilmedi";
         public static string AddedSuccesful = "Eklendi";

@@ -1,19 +1,22 @@
 ﻿using Core.Utilities.Results;
-using Entities.Concrete;
+using Core.FileUpload;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.Concrete;
 
 namespace Business.Abstract
 {
     public interface ICarImageService
     {
-        IResult Add(CarImage carImage);
+        IResult Add(FileUpload objfiles, CarImage carImage);
         IResult Delete(CarImage carImage);
-        IResult Update(CarImage carImage);
+        IResult Update(FileUpload objfiles, CarImage carImage);
+        IDataResult<CarImage> Get(int id);
         IDataResult<List<CarImage>> GetAll();
-        IDataResult<List<CarImage>> GetCarImagesByCarImageId(int id);
+        IDataResult<List<CarImage>> GetCarImagesByCarId(int id);
     }
 }
+

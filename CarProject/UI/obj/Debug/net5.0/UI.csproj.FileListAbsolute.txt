@@ -214,3 +214,14 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\obj\Debug\net5.0\UI.csproj.CopyComplete
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Web.Helpers.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\WebMatrix.Data.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\WebMatrix.WebData.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.IO.Pipelines.dll
