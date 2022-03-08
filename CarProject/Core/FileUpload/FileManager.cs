@@ -13,43 +13,49 @@ namespace Core.FileUpload
         private static string _current = Environment.CurrentDirectory + "\\wwwroot\\";
         private static string _foldername = "\\images\\";
 
-        public static IResult Upload(FileUpload objfile)
+        public static IDataResult<string> Upload(FileUpload objfile)
         {
             var fileExists = CheckFileExists(objfile);
             if (fileExists.Message!=null)
             {
-                return new ErrorResult(fileExists.Message);
+                return new ErrorDataResult<string>(null, fileExists.Message);
             }
             var type = Path.GetExtension(objfile.files.FileName);
             var typeValid = CheckFileTypeValid(type);
             var randomName = Guid.NewGuid().ToString();
             if (typeValid.Message!=null)
             {
-                return new ErrorResult(typeValid.Message);
+                return new ErrorDataResult<string>(null, typeValid.Message);
             }
             CheckDirectoryExists(_current + _foldername);
             CreateImageFile(_current + _foldername + randomName + type, objfile);
-            return new SuccessResult((_foldername + randomName + type).Trim('\\','/')); 
+            return new SuccessDataResult<string>((_foldername + randomName + type).Trim('\\','/'),"Başarılı"); 
         }
 
-        public static IResult Update(FileUpload objfile, string imagePath)
+        public static IDataResult<string> Update(FileUpload objfile, string imagePath)
         {
+            //if (File.Exists(imagePath))
+            //{
+            //    File.Delete(imagePath);
+            //}
+            //return Upload(objfile);
+
             var fileExists = CheckFileExists(objfile);
-            if (fileExists.Message!=null)
+            if (fileExists.Message != null)
             {
-                return new ErrorResult(fileExists.Message);
+                return new ErrorDataResult<string>(null,fileExists.Message);
             }
             var type = Path.GetExtension(objfile.files.FileName);
             var typeValid = CheckFileTypeValid(type);
             var randomName = Guid.NewGuid().ToString();
-            if (typeValid.Message!=null)
+            if (typeValid.Message != null)
             {
-                return new ErrorResult(typeValid.Message);
+                return new ErrorDataResult<string>(null,typeValid.Message);
             }
             DeleteOldImageFile((_current + imagePath).Trim('/', '\\'));
             CheckDirectoryExists(_current + _foldername);
             CreateImageFile(_current + _foldername + randomName + type, objfile);
-            return new SuccessResult((_foldername + randomName + type).Trim('\\', '/'));
+            return new SuccessDataResult<string>((_foldername + randomName + type).Trim('\\', '/'),"Başarılı");
         }
 
         public static IResult Delete(string path)

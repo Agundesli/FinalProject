@@ -29,12 +29,14 @@ namespace Business.Concrete
         public IResult Add(FileUpload objfiles, CarImage carImage)
         {
             IResult result = CarImagesRules.Run(CarImageCountCheck(carImage.CarId));
-            var imageResult = FileManager.Upload(objfiles);
-            if (!imageResult.Success)
+            
+            if (result!=null)
             {
-                return new ErrorResult(imageResult.Message);
+                return new ErrorResult(result.Message);
             }
-            carImage.ImagePath = imageResult.Message;
+            var imageResult = FileManager.Upload(objfiles);
+            carImage.ImagePath = imageResult.Data;//message
+            carImage.AddDate = DateTime.Now;
             _carImageDal.Add(carImage);
             return new SuccessResult(Message.AddedSuccesful);
         }
@@ -51,7 +53,7 @@ namespace Business.Concrete
             return new SuccessResult(Message.DeletedImage);
         }
 
-        public IDataResult<CarImage> Get(int id)
+        public IDataResult<CarImage> GetByCarImageId(int id)
         {
             return new SuccessDataResult<CarImage>(_carImageDal.Get(p=>p.CarImageId==id));
         }
@@ -83,7 +85,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(updateFile.Message);
             }
-            carImage.ImagePath = updateFile.Message;
+            carImage.ImagePath = updateFile.Data;//message
             _carImageDal.Update(carImage);
             return new SuccessResult();
         }
@@ -91,11 +93,11 @@ namespace Business.Concrete
         private IResult CarImageCountCheck(int carid)
         {
             var CarImage = _carImageDal.GetAll(p => p.CarId == carid).Count;
-            if (CarImage>5)
+            if (CarImage<=5)
             {
-                return new ErrorResult(Message.CarImageLimitPassed);
+                return new SuccessResult();
             }
-            return new SuccessResult();
+            return new ErrorResult(Message.CarImageLimitPassed);
         }
 
         private  IDataResult<List<CarImage>> CheckCarImageNull(int carId)
