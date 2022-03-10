@@ -93,7 +93,7 @@ namespace Business.Concrete
         private IResult CarImageCountCheck(int carid)
         {
             var CarImage = _carImageDal.GetAll(p => p.CarId == carid).Count;
-            if (CarImage<=5)
+            if (CarImage<5)
             {
                 return new SuccessResult();
             }
@@ -103,14 +103,17 @@ namespace Business.Concrete
         private  IDataResult<List<CarImage>> CheckCarImageNull(int carId)
         {
             string path = @"\images\logo.jpeg";
-            var result = _carImageDal.GetAll(p => p.CarId == carId).Any();
+            var result = _carImageDal.GetAll(p => p.ImagePath == null).Any();
             if (!result)
             {
                 List<CarImage> carImages = new List<CarImage>();
                 carImages.Add(new CarImage { CarId = carId, ImagePath = path, AddDate = DateTime.Now });
                 return new SuccessDataResult<List<CarImage>>(carImages);
             }
-            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId).ToList());
+            else
+            {
+                return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(p => p.CarId == carId).ToList());
+            }
         }
     }
 }

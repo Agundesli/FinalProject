@@ -51,4 +51,3 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Business\bin\Debug\
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Business\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Business\bin\Debug\net5.0\Entities.pdb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Business\bin\Debug\net5.0\Core.pdb
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\Business\obj\Debug\net5.0\Business.csproj.CopyComplete

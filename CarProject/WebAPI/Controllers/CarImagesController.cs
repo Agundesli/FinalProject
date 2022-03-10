@@ -30,12 +30,12 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result.Message);
-        } 
+        }
 
         [HttpPost("add")]
         public IActionResult Add([FromForm] FileUpload file, [FromForm] CarImage carImage)
         {
-            
+
             var result = _carImageService.Add(file, carImage);
             if (result.Success)
             {
@@ -43,7 +43,6 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
-
 
         [HttpDelete("delete")]
         public IActionResult Delete(CarImage carImage)
