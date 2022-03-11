@@ -58,13 +58,13 @@ namespace Core.FileUpload
             return new SuccessResult();
         }
 
-        private static IResult CheckFileExists(FileUpload objfile)
+        private static IDataResult<string> CheckFileExists(FileUpload objfile)
         {
             if (objfile.files != null && objfile.files.Length>0)
             {
-                return new SuccessResult();
+                return new SuccessDataResult<string>();
             }
-            return new ErrorResult("File does not exist!!!");
+            return new ErrorDataResult<string>("File does not exist!!!");
         }
 
         private static IResult CheckFileTypeValid(string type)
