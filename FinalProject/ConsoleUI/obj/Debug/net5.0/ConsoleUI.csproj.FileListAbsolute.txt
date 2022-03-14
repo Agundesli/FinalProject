@@ -143,3 +143,7 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Deb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
