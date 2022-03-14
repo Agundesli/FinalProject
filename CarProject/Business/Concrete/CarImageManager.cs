@@ -35,7 +35,7 @@ namespace Business.Concrete
             if (imageResult.Data!=null)
             {
                 carImage.ImagePath = imageResult.Data;
-                carImage.AddDate = DateTime.Now;
+                //carImage.AddDate = DateTime.Now;
                 _carImageDal.Add(carImage);
                 return new SuccessResult(Message.AddedSuccesful);
             }

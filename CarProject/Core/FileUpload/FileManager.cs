@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Core.FileUpload
 {
-    public class FileManager:IFileService
+    public class FileManager
     {
         private static string _current = Environment.CurrentDirectory + "\\wwwroot\\";
         private static string _foldername = "\\images\\";
@@ -76,7 +76,7 @@ namespace Core.FileUpload
             return new SuccessResult();
         }
 
-        private static void CheckDirectoryExists(string directory)
+        private static void CheckDirectoryExists(string directory)//CHECK ET WWWROOT+IMAGES VARSA OLUŞTURMA YOKSA OLUŞTUR
         {
             if (!Directory.Exists(directory))
             {
