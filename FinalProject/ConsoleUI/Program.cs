@@ -18,39 +18,39 @@ namespace ConsoleUI
 
         }
 
-        private static void CategoryTest()
-        {
-            CategoryManager categoryManager = new CategoryManager(new EntityFrameworkCategoryDal());
-            foreach (var item in categoryManager.GetAll())
-            {
-                Console.WriteLine(item.CategoryName);
-            }
-        }
+       //private static void CategoryTest()
+       // {
+       //     CategoryManager categoryManager = new CategoryManager(new EntityFrameworkCategoryDal());
+       //     foreach (var item in categoryManager.GetAll())
+       //     {
+       //         Console.WriteLine(item.CategoryName);
+       //     }
+       // }
 
-        private static void ProductTest1()
-        {
-            ProductManager productManager = new ProductManager(new EntityFrameworkProductDal());
-            foreach (var item in productManager.GetByUnitPrice(40, 100).Data)
-            {
-                Console.WriteLine(item.ProductName);
-            }
-        }
-        private static void ProductTest2()
-        {
-            ProductManager productManager1 = new ProductManager(new EntityFrameworkProductDal());
-            var result = productManager1.GetProductDetails();
-            if (result.Success==true)
-            {
-                foreach (var item in result.Data)
-                {
-                    Console.WriteLine(item.ProductName + "-" + item.CategoryName);
-                }
-            }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
-        }
+       // private static void ProductTest1()
+       // {
+       //     ProductManager productManager = new ProductManager(new EntityFrameworkProductDal());
+       //     foreach (var item in productManager.GetByUnitPrice(40, 100).Data)
+       //     {
+       //         Console.WriteLine(item.ProductName);
+       //     }
+       // }
+       // private static void ProductTest2()
+       // {
+       //     ProductManager productManager1 = new ProductManager(new EntityFrameworkProductDal());
+       //     var result = productManager1.GetProductDetails();
+       //     if (result.Success==true)
+       //     {
+       //         foreach (var item in result.Data)
+       //         {
+       //             Console.WriteLine(item.ProductName + "-" + item.CategoryName);
+       //         }
+       //     }
+       //     else
+       //     {
+       //         Console.WriteLine(result.Message);
+       //     }
+       // }
     
     }
 }
