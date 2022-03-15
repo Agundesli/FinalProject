@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection;
+using Core.Extension;
+using Business.Constants;
 
 namespace Business.BusinessAspects.Autofac
 {

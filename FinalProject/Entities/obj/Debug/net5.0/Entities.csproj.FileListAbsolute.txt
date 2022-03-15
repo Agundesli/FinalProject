@@ -39,4 +39,3 @@ C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\FinalProject\Entities\o
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\FinalProject\Entities\obj\Debug\net5.0\Entities.dll
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\FinalProject\Entities\obj\Debug\net5.0\ref\Entities.dll
 C:\Users\303ABDULLAH_SABAH\Documents\GitHub\FinalProject\FinalProject\Entities\obj\Debug\net5.0\Entities.pdb
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
