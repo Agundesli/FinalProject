@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,5 +21,12 @@ namespace Business.Concrete
         public static string UpdatedProduct = "Ürün Güncellendi";
         public static string NotReturn = "Teslim Alınmadı";
         public static string FailAdded = "Ekleme Başarısız";
+        public static string AuthorizationDenied="Gerekli Yetkiniz Yok";
+        public static string UserRegistered="Kayıt oldu";
+        public static string UserNotFound="Kullanıcı Bulunamadı";
+        public static string PasswordError="Parola Hatalı";
+        public static string SuccessfulLogin="Kayıt Başarılı";
+        public static string UserAlreadyExists="Var Olan Kullanıcı";
+        public static string AccessTokenCreated="Geçerli Token Yaratıldı";
     }
 }

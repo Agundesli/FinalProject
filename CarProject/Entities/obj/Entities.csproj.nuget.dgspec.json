@@ -50,7 +50,7 @@
             },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -63,6 +63,22 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
             }
           },
           "imports": [

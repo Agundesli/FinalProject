@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntitiyFramework;
@@ -74,15 +75,15 @@ namespace UI
             });
         }
 
-        private static void UserUpdate()
-        {
-            UserManager userManager1 = new UserManager(new EFUserDal());
-            userManager1.Update(new User { UserId = 1,FirstName="Mehmet", LastName="Mehmet", Email= "fbehf@fhefbh", Password = "black" });
-            userManager1.Update(new User { UserId = 2, FirstName = "Ayşe", LastName = "Ayşe", Email = "fbehf@fhefbh", Password = "White" });
-            userManager1.Update(new User { UserId = 3, FirstName = "Kamil", LastName = "Kamil", Email = "fbehf@fhefbh", Password = "yellow" });
-            userManager1.Update(new User { UserId = 4, FirstName = "Yeliz", LastName = "Yeliz", Email = "fbehf@fhefbh", Password = "orange" });
-            userManager1.Update(new User { UserId = 5, FirstName = "Fırat", LastName = "Fırat", Email = "fbehf@fhefbh", Password = "pink" });
-        }
+        //private static void UserUpdate()
+        //{
+        //    UserManager userManager1 = new UserManager(new EFUserDal());
+        //    userManager1.Update(new User { UserId = 1,FirstName="Mehmet", LastName="Mehmet", Email= "fbehf@fhefbh", Password = "black" });
+        //    userManager1.Update(new User { UserId = 2, FirstName = "Ayşe", LastName = "Ayşe", Email = "fbehf@fhefbh", Password = "White" });
+        //    userManager1.Update(new User { UserId = 3, FirstName = "Kamil", LastName = "Kamil", Email = "fbehf@fhefbh", Password = "yellow" });
+        //    userManager1.Update(new User { UserId = 4, FirstName = "Yeliz", LastName = "Yeliz", Email = "fbehf@fhefbh", Password = "orange" });
+        //    userManager1.Update(new User { UserId = 5, FirstName = "Fırat", LastName = "Fırat", Email = "fbehf@fhefbh", Password = "pink" });
+        //}
 
         private static void RentalAdded()
         {
@@ -122,7 +123,7 @@ namespace UI
                 FirstName = "Büşra",
                 LastName = "Yılmaz",
                 Email = "bsrylmz06@gmail.com",
-                Password = "Gray"
+                //Password = "Gray"
             }
             );
             userManager.Add(new User

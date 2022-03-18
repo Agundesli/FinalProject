@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿
+using Core.Entities.Concrete;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,10 @@ namespace Business.ValidationRules.FluentValidation
     {
         public UserValidator()
         {
-            RuleFor(p => p.Password).MinimumLength(10);
-            RuleFor(p => p.Password).Must(MustBeCharacter).WithMessage("En az bir karakter kullanmak zorundasınız");
-            RuleFor(p => p.Password).Must(MustBeToUpper).WithMessage("En az bir büyük harf olmalı");
-            RuleFor(p => p.Password).Must(MustBeNumeric).WithMessage("En az bir rakam olmalı");
+            //RuleFor(p => p.Password).MinimumLength(10);
+            //RuleFor(p => p.Password).Must(MustBeCharacter).WithMessage("En az bir karakter kullanmak zorundasınız");
+            //RuleFor(p => p.Password).Must(MustBeToUpper).WithMessage("En az bir büyük harf olmalı");
+            //RuleFor(p => p.Password).Must(MustBeNumeric).WithMessage("En az bir rakam olmalı");
             RuleFor(p => p.Email).Must(MustBe).WithMessage("@ ve . Karakteri zorunludur");
             RuleFor(p => p.FirstName).NotEmpty();
             RuleFor(p => p.LastName).NotEmpty();

@@ -51,9 +51,13 @@
               "target": "Package",
               "version": "[6.3.0, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -63,9 +67,21 @@
               "target": "Package",
               "version": "[3.2.7, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.14, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -133,7 +149,7 @@
             },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -146,6 +162,22 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.16.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
             }
           },
           "imports": [
@@ -350,6 +382,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",

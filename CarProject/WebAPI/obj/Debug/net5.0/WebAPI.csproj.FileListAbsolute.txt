@@ -27,7 +27,6 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\ne
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -81,4 +80,10 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\ne
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete

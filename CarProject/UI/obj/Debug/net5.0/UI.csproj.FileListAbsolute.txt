@@ -225,3 +225,11 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\UI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
