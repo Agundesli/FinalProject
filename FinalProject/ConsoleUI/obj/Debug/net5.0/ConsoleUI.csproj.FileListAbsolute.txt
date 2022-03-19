@@ -146,7 +146,6 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Deb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CopyComplete
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll

@@ -47,7 +47,8 @@ namespace WebAPI
 
             //services.AddSingleton<IProductService, ProductManager>();
             //services.AddSingleton<IProductDal, EntityFrameworkProductDal>();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
