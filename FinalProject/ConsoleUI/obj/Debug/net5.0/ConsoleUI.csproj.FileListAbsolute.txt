@@ -150,3 +150,4 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Deb
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\FinalProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CopyComplete

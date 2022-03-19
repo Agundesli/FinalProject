@@ -11,6 +11,7 @@ namespace Business.Constants
 {
     public static class Messages//sürekli new yapmmak için çünkü basit bir mesaj değişkeni static yapıyorum
     {
+        public static string ProductCountOfCategoryError="Kategory Hatası";
         public static string UserRegistered="Kayıt Oldu";
         public static string UserNotFound="Kullanıcı Bulunamadı";
         public static string PasswordError="Parola Hatası";
@@ -25,6 +26,7 @@ namespace Business.Constants
         public static string ProductCountofCategoryError = "Kategory için en fazla on ürün olabilir";
         public static string ProductNameAlreadyExist="Mevcut ürün ismi ikinci kere eklenemez";
         public static string CategoriesPassedLimit="Kategori sayısı limiti geçti";
+        public static string SuccesUpdate="Güncelleme Başarılı";
     }
 
 }

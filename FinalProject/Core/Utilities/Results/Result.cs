@@ -17,7 +17,7 @@ namespace Core.Utilities.Results
         {
             Message = message;
             //Aşağıdaki mesajı mesaj olarak set et!!!
-            //Get olayo readonly bir ifadedir. Ama readonşy ifadeleri constructor içerisinde set edilebilir.
+            //Get olayo readonly bir ifadedir. Ama readonly ifadeleri constructor içerisinde set edilebilir.
             //Madem böyle niye başta set koymadık da böyle bir ctor kullanma gereği duyduk
             //Kullanııc kafasına göre return döndüremesin. Yani biz kullanıcıya sınırlama getirdik.
             //Benim belirlediğim ifadeyi set edebilirsin.
