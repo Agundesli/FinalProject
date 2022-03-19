@@ -161,7 +161,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Features/5.0.14": {
+      "Microsoft.AspNetCore.Http.Features/5.0.13": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.1",
@@ -355,7 +355,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.1": {
+      "Microsoft.Extensions.Configuration/6.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -2388,7 +2388,7 @@
           "Microsoft.AspNet.WebHelpers": "3.2.7",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14",
+          "Microsoft.AspNetCore.Http.Features": "5.0.13",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "compile": {
@@ -2406,9 +2406,10 @@
           "Autofac.Extensions.DependencyInjection": "7.2.0",
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "FluentValidation": "10.3.6",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14",
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Features": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
-          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.IdentityModel.Tokens": "6.16.0",
           "System.IdentityModel.Tokens.Jwt": "6.16.0"
@@ -2439,8 +2440,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Core": "1.0.0",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14"
+          "Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -2658,10 +2658,10 @@
         "microsoft.aspnetcore.http.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Features/5.0.14": {
-      "sha512": "sTyiE/9atdjs3akXeM/olTWmO2C22uLFOg+Gd0J0Iw1fK8uzl8ICNumxCGidiOZD9/FtZ4VgiQ7zxrMjYL3udg==",
+    "Microsoft.AspNetCore.Http.Features/5.0.13": {
+      "sha512": "IrvvGsGxUTahPCLEI3CoezvsCLGhK9XgY8p2Pns+X/AHK+vskXYdxNlE7LBXeYOmpfEhqd0CFwK/BzjYxvhKdQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.features/5.0.14",
+      "path": "microsoft.aspnetcore.http.features/5.0.13",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2673,7 +2673,7 @@
         "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.5.0.14.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
@@ -2949,10 +2949,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration/6.0.1": {
-      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
+    "Microsoft.Extensions.Configuration/6.0.0": {
+      "sha512": "tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/6.0.1",
+      "path": "microsoft.extensions.configuration/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2963,7 +2963,7 @@
         "lib/net461/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.6.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]

@@ -13,7 +13,12 @@ namespace UI
     {
         static void Main(string[] args)
         {
-            GetCar();
+
+            int sayi1 = 5;
+            int sayi2 = 10;
+
+            int toplam = sayi1 + sayi2;
+            //GetCar();
 
             //GetBrand();
 

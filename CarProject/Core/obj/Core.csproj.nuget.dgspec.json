@@ -56,9 +56,13 @@
               "target": "Package",
               "version": "[10.3.6, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.14, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -66,7 +70,7 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",

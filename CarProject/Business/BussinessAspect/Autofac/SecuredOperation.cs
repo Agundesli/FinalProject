@@ -1,15 +1,17 @@
 ﻿using Core.Utilities.Interceptors;
 using Core.Utilities.Ioc;
-using Microsoft.AspNetCore.Http;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Castle.DynamicProxy;
+
 using Microsoft.Extensions.DependencyInjection;
 using Core.Extension;
 using Business.Concrete;
+using Microsoft.AspNetCore.Http;
+using Castle.DynamicProxy;
 
 namespace Business.BussinessAspect.Autofac
 {

@@ -507,11 +507,11 @@
       },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "5.0.14",
+          "Microsoft.AspNetCore.Http.Features": "5.0.13",
           "System.Text.Encodings.Web": "4.5.0"
         }
       },
-      "Microsoft.AspNetCore.Http.Features/5.0.14": {
+      "Microsoft.AspNetCore.Http.Features/5.0.13": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0",
           "System.IO.Pipelines": "5.0.1"
@@ -519,7 +519,7 @@
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.1422.6324"
+            "fileVersion": "5.0.1321.57202"
           }
         },
         "compile": {
@@ -691,7 +691,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
-      "Microsoft.Extensions.Configuration/6.0.1": {
+      "Microsoft.Extensions.Configuration/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
@@ -699,7 +699,7 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.322.12309"
+            "fileVersion": "6.0.21.52210"
           }
         },
         "compile": {
@@ -1936,7 +1936,7 @@
           "Microsoft.AspNet.WebHelpers": "3.2.7",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14",
+          "Microsoft.AspNetCore.Http.Features": "5.0.13",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "runtime": {
@@ -1952,9 +1952,10 @@
           "Autofac.Extensions.DependencyInjection": "7.2.0",
           "Autofac.Extras.DynamicProxy": "6.0.1",
           "FluentValidation": "10.3.6",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14",
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Features": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
-          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.IdentityModel.Tokens": "6.16.0",
           "System.IdentityModel.Tokens.Jwt": "6.16.0"
@@ -1981,8 +1982,7 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Core": "1.0.0",
-          "Microsoft.AspNetCore.Http.Features": "5.0.14"
+          "Core": "1.0.0"
         },
         "runtime": {
           "Entities.dll": {}
@@ -3728,12 +3728,12 @@
       "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Http.Features/5.0.14": {
+    "Microsoft.AspNetCore.Http.Features/5.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sTyiE/9atdjs3akXeM/olTWmO2C22uLFOg+Gd0J0Iw1fK8uzl8ICNumxCGidiOZD9/FtZ4VgiQ7zxrMjYL3udg==",
-      "path": "microsoft.aspnetcore.http.features/5.0.14",
-      "hashPath": "microsoft.aspnetcore.http.features.5.0.14.nupkg.sha512"
+      "sha512": "sha512-IrvvGsGxUTahPCLEI3CoezvsCLGhK9XgY8p2Pns+X/AHK+vskXYdxNlE7LBXeYOmpfEhqd0CFwK/BzjYxvhKdQ==",
+      "path": "microsoft.aspnetcore.http.features/5.0.13",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
       "type": "package",
@@ -3812,12 +3812,12 @@
       "path": "microsoft.extensions.caching.memory/5.0.0",
       "hashPath": "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration/6.0.1": {
+    "Microsoft.Extensions.Configuration/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
-      "path": "microsoft.extensions.configuration/6.0.1",
-      "hashPath": "microsoft.extensions.configuration.6.0.1.nupkg.sha512"
+      "sha512": "sha512-tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+      "path": "microsoft.extensions.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
       "type": "package",

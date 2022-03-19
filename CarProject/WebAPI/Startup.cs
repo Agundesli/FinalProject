@@ -1,4 +1,6 @@
 
+using Core.DependencyResolvers;
+using Core.Extension;
 using Core.Utilities.Ioc;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
@@ -33,9 +35,10 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-             services.AddControllers();
-             services.AddCors();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddControllers();
+            services.AddCors();
+            
+
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -52,7 +55,8 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
-            ServiceTool.Create(services);
+            services.AddDependencyResolvers(new ICoreModule[] { new CoreModule()});
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplication2", Version = "v1" });
