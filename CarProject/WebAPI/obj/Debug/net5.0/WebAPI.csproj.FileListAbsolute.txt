@@ -86,3 +86,4 @@ C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\ne
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\A_GUNDESLI\Documents\GitHub\FinalProject\CarProject\WebAPI\obj\Debug\net5.0\WebAPI.csproj.CopyComplete
